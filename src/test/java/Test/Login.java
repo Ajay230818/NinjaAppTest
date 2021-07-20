@@ -35,7 +35,7 @@ public class Login {
 		driver.findElement(By.linkText("Login")).click();
 		driver.findElement(By.id("input-email")).sendKeys("parthjay123@gmail.com");
 	    driver.findElement(By.id("input-password")).sendKeys("Ajay@098765");
-	    Assert.fail("Test Case 2 is failed");
+	    Assert.fail("Test Case 2 is failed Ajaka");
 	    driver.close();
 	}
 	@Test
